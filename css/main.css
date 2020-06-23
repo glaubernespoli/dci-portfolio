@@ -1,0 +1,127 @@
+.home {
+	background-attachment: fixed; /* fix the image so it doesnt scroll with the page */
+	background-repeat: no-repeat; /* makes the image not repeat itself */
+	background-position: 50% 50%;
+	background-size: cover; /* convers the entire container */
+	min-height: 1000px;
+	position: relative;
+	overflow: hidden;
+}
+
+.home .titles {
+	width: 100%;
+	height: 100%;
+	min-height: 1000px;
+	position: absolute;
+	padding: 0 80px;
+	top: 0; /* setting to 0 since its position is already absolute */
+	background-color: rgba(0, 0, 0, 0.5); /* half transparent */
+}
+
+.home .titles-wrap {
+	margin-top: 300px;
+}
+
+.home h1 {
+	color: #fff;
+	width: 100%;
+	display: block;
+	margin: 0;
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 1.7;
+}
+
+.home h1 span {
+	color: #c9a04f;
+}
+
+.home h2 {
+	color: #fff;
+	display: block;
+	font-size: 27px;
+	line-height: 1.7;
+}
+
+.home h2 span {
+	color: #fff;
+}
+
+.home p {
+	color: #fff;
+	font-size: 18px;
+	margin-top: 20px;
+	max-width: 450px;
+}
+
+.btn {
+	color: #fff;
+	background-color: #c9a04f;
+	font-size: 14px;
+	line-height: 40px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 0 40px;
+	border-radius: 0;
+	position: relative;
+	display: inline-block;
+	border: 2px solid #c9a04f;
+	text-decoration: none;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+/* .btn-outline-secondary {
+    color: rgb(186, 184, 180);
+    border-top-color: rgb(78, 80, 83);
+    border-right-color: rgb(78, 80, 83);
+    border-bottom-color: rgb(78, 80, 83);
+    border-left-color: rgb(78, 80, 83);
+    background-color: transparent;
+    border: 1px solid transparent;
+} */
+
+/** RESPONSIVENESS **/
+
+/* Small devices (portrait tablets and large phones, 600px-768px) */
+@media only screen and (max-width: 768px) {
+	.home .titles {
+		padding: 0 40px;
+		width: 100%;
+	}
+
+	.home h2,
+	.home p {
+		font-size: 20px;
+	}
+}
+
+/* Extra small devices (phones, 350px-600px) */
+@media only screen and (max-width: 600px) {
+
+	.home h2,
+	.home p {
+		font-size: 18px;
+	}
+
+	.home h1 {
+		font-size: 30px;
+	}
+}
+
+/* Extreme small devices (phones, 350px and down) */
+@media only screen and (max-width: 350px) {
+
+	.home h2,
+	.home p {
+		font-size: 16px;
+	}
+
+	.home h1 {
+		font-size: 28px;
+	}
+}
