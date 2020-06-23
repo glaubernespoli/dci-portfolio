@@ -1,9 +1,12 @@
 .home {
-	background-attachment: fixed; /* fix the image so it doesnt scroll with the page */
-	background-repeat: no-repeat; /* makes the image not repeat itself */
+	/* fix the image so it doesnt scroll with the page */
+	background-attachment: fixed;
+	/* makes the image not repeat itself */
+	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-size: cover; /* convers the entire container */
-	min-height: 1000px;
+	/* convers the entire container */
+	background-size: cover;
+	min-height: 700px;
 	position: relative;
 	overflow: hidden;
 }
@@ -11,15 +14,39 @@
 .home .titles {
 	width: 100%;
 	height: 100%;
-	min-height: 1000px;
 	position: absolute;
-	top: 0; /* setting to 0 since its position is already absolute */
-	background-color: rgba(0, 0, 0, 0.5); /* half transparent */
+	/* setting to 0 since its position is already absolute */
+	top: 0;
+	/* half transparent */
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.home .titles-wrap {
+.home .whoami {
 	padding: 0 80px;
-	margin-top: 300px;
+	margin-top: 200px;
+	display: flex;
+}
+
+.whoami-image-wrapper {
+	border-radius: 50%;
+	border: #181a1b 1px solid;
+	overflow: hidden;
+	height: 20vw;
+	width: 20vw;
+	margin-right: 20px;
+	position: relative;
+}
+
+.whoami-image-wrapper img {
+	display: block;
+	/* margin-left: auto;
+	margin-right: auto; */
+	max-width: 100%; 
+	max-height: 100%;
+}
+
+.whoami .whoami-info {
+	padding: 0 80px;
 }
 
 .home h1 {
@@ -51,39 +78,48 @@
 	color: #fff;
 	font-size: 18px;
 	margin-top: 20px;
-	max-width: 450px;
+	max-width: 500px;
+	text-align: justify;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 160%;
+	
+	/* background-color: #212529; */
+	background-color: #181a1b;
+	/* background-color: rgb(16, 14, 23); */
 }
 
 .btn {
 	color: #fff;
-	background-color: #c9a04f;
 	font-size: 14px;
-	line-height: 40px;
 	letter-spacing: 0.5px;
 	text-align: center;
 	font-weight: 600;
 	text-transform: capitalize;
 	padding: 0 40px;
-	border-radius: 0;
 	position: relative;
 	display: inline-block;
-	border: 2px solid #c9a04f;
 	text-decoration: none;
+	border-color: #6c757d;
+	background-color: transparent;
+	border: 1px solid #6c757d;
+    line-height: 1.5;
+    border-radius: .25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-top: 0!important;
+	padding-left: 1rem!important;
+	padding-right: 1rem!important;
+	padding-bottom: .5rem!important;
+	padding-top: .5rem!important;
+
 }
 
 .btn:hover {
-	color: #fff;
+	background-color: #6c757d;
+    border-color: #6c757d;
 }
-
-/* .btn-outline-secondary {
-    color: rgb(186, 184, 180);
-    border-top-color: rgb(78, 80, 83);
-    border-right-color: rgb(78, 80, 83);
-    border-bottom-color: rgb(78, 80, 83);
-    border-left-color: rgb(78, 80, 83);
-    background-color: transparent;
-    border: 1px solid transparent;
-} */
 
 /** RESPONSIVENESS **/
 
