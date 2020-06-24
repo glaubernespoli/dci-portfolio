@@ -16,3 +16,7 @@ function randomBG() {
 		loop: true
 	});
 })(jQuery);
+
+$('.nav-links').click(function () {
+	$('#chkToggle').click();
+});
