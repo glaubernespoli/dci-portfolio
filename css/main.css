@@ -6,7 +6,7 @@
 	background-position: 50% 50%;
 	/* convers the entire container */
 	background-size: cover;
-	min-height: 700px;
+	min-height: 800px;
 	position: relative;
 	overflow: hidden;
 }
@@ -71,6 +71,7 @@
 	display: block;
 	font-size: 27px;
 	line-height: 1.7;
+	min-height: 90px;
 }
 
 .home p {
@@ -138,11 +139,13 @@ body {
 .nav-links {
     text-decoration: none;
 	color: rgba(255, 255, 255, 0.7);
-	transition: text-decoration .15s ease-in-out;
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+	padding-bottom: 5px;
+  	transition: border-bottom 0.3s ease-in-out;
 }
 
 .nav-links:hover {
-	text-decoration: underline;
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 
 .main-nav li {
@@ -169,42 +172,70 @@ body {
 
 /** RESPONSIVENESS **/
 
-/* Small devices (portrait tablets and large phones, 600px-768px) */
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+	.home h1 {
+		font-size: 38px;
+	}
+	.home h2 {
+		font-size: 22px;
+		min-height: 74px;
+	}
+
+	.home p {
+		font-size: 16px;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 768px and down) */
 @media only screen and (max-width: 768px) {
-	.home .titles {
+	.home .whoami {
 		padding: 0 40px;
 		width: 100%;
 	}
 
-	.home h2,
-	.home p {
-		font-size: 20px;
+	.home h1 {
+		font-size: 32px;
 	}
 }
 
-/* Extra small devices (phones, 350px-600px) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-	.home h2,
-	.home p {
+	.home h2 {
 		font-size: 18px;
+		min-height: 90px;
 	}
 
 	.home h1 {
 		font-size: 30px;
+		text-align: center;
 	}
+
+	.whoami-image-wrapper {
+		display: none;
+	}
+
+	.home .whoami {
+		padding: 0;
+		margin-top: 40px;
+	}
+
 }
 
 /* Extreme small devices (phones, 350px and down) */
 @media only screen and (max-width: 350px) {
 
-	.home h2,
-	.home p {
+	.home h2 {
 		font-size: 16px;
+		min-height: 54px;
 	}
 
 	.home h1 {
 		font-size: 28px;
+	}
+
+	.home .whoami-info {
+		padding: 10px;
 	}
 }
 
