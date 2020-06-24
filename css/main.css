@@ -18,7 +18,11 @@
 	/* setting to 0 since its position is already absolute */
 	top: 0;
 	/* half transparent */
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home .shade .light {
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .home .whoami {
@@ -45,12 +49,11 @@
 	max-height: 100%;
 }
 
-.whoami .whoami-info {
+.whoami-info {
 	padding: 0 80px;
 }
 
 .home h1 {
-	color: #fff;
 	width: 100%;
 	display: block;
 	margin: 0;
@@ -59,23 +62,18 @@
 	line-height: 1.7;
 }
 
-.home h1 span {
+.home h1 span, .whoami strong {
 	color: #c9a04f;
+	/* color: #ed4e6a; */
 }
 
 .home h2 {
-	color: #fff;
 	display: block;
 	font-size: 27px;
 	line-height: 1.7;
 }
 
-.home h2 span {
-	color: #fff;
-}
-
 .home p {
-	color: #fff;
 	font-size: 18px;
 	margin-top: 20px;
 	max-width: 500px;
@@ -83,6 +81,7 @@
 }
 
 body {
+	color: #fff;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 160%;
 	
@@ -109,16 +108,11 @@ body {
     border-radius: .25rem;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 	margin-top: 0!important;
-	padding-left: 1rem!important;
-	padding-right: 1rem!important;
-	padding-bottom: .5rem!important;
-	padding-top: .5rem!important;
-
+	padding: .5rem 1rem!important;
 }
 
 .btn:hover {
-	background-color: #6c757d;
-    border-color: #6c757d;
+	background-color: #c9a04f;
 }
 
 /** RESPONSIVENESS **/
