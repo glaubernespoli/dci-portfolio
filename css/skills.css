@@ -1,0 +1,34 @@
+@import url('skills-icons.css');
+
+.skills {
+    padding: 70px 0 70px 0;
+}
+
+.skills .skill-box {
+    margin: 50px 15px;
+    padding: 10px 15px;
+    color: rgba(255, 255, 255, 0.7);
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 10%;
+    transition: color .30s ease-in-out, border .30s ease-in-out;
+}
+
+.skills .skill-box:hover {
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.skills .icon-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills .skills-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills .skill-box {
+    width: 28%;
+}

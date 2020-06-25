@@ -1,0 +1,39 @@
+.skills .skill-box .mdi-language-java,
+.skills .skill-box .mdi-database-search,
+.skills .skill-box .mdi-language-html5,
+.skills .skill-box:hover .mdi-language-css3,
+.skills .skill-box:hover .mdi-language-javascript,
+.skills .skill-box:hover .mdi-source-repository {
+    color: rgba(255, 255, 255, 0.7);
+    transition: color .30s ease-in-out;
+}
+
+/* Java */
+.skills .skill-box:hover .mdi-language-java {
+    color: #b3404a;
+}
+
+/* Database */
+.skills .skill-box:hover .mdi-database-search {
+    color: #423a47;
+}
+
+/* Html */
+.skills .skill-box:hover .mdi-language-html5 {
+    color: #774630;
+}
+
+/* CSS */
+.skills .skill-box:hover .mdi-language-css3 {
+    color: #3e7997;
+}
+
+/* JS */
+.skills .skill-box:hover .mdi-language-javascript {
+    color: #a69d57;
+}
+
+/* Repositories */
+.skills .skill-box:hover .mdi-source-repository {
+    color: #3e4041;
+}
