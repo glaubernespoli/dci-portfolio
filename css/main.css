@@ -87,7 +87,7 @@ body {
 	font-size: 160%;
 	
 	/* background-color: #212529; */
-	background-color: #181a1b;
+	background-color: rgb(24, 26, 27);
 	/* background-color: rgb(16, 14, 23); */
 }
 
@@ -125,7 +125,6 @@ body {
 .navbar {
 	font-size: 18px;
 	background-color: rgba(0, 0, 0, 0.7);
-	border: 1px solid rgba(0, 0, 0, 0.2);
 	padding-bottom: 10px;
 	overflow: hidden;
 	position: fixed;
@@ -267,9 +266,9 @@ body {
 
 	.nav-links {
 		margin-left: 40px;
-		border-bottom: hidden;
+		border-bottom: 1px solid rgba(255, 255, 255, 0);
 		border-top: hidden;
-  		transition: border-bottom 0.3s ease-in-out;
+  		transition: border-bottom 170ms ease-in-out;
 	}
 
 	.navbar-toggle {
