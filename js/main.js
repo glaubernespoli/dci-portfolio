@@ -28,16 +28,18 @@ $('.nav-links').click(function () {
 });
 
 // When the user scrolls down 200px from the top of the document, add a small shade on the navbar. After 800px, change background to the default of the page.
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+	scrollFunction()
+};
 
 function scrollFunction() {
 	if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
 		document.getElementById("navbar").style.backgroundColor = "rgb(24, 26, 27)";
 	} else if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-	  document.getElementById("navbar").style.backgroundColor = "rgba(24, 26, 27, 0.5)";
-  } else {
-    document.getElementById("navbar").style.backgroundColor = "transparent";
-  }
+		document.getElementById("navbar").style.backgroundColor = "rgba(24, 26, 27, 0.5)";
+	} else {
+		document.getElementById("navbar").style.backgroundColor = "transparent";
+	}
 }
 
 //TODO move scroll function to jquery ---- fix rules to navbar (<768px)

@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glauber Néspoli | Full Stack Web Developer</title>
 
-    <link rel="stylesheet" href="css/normalize.css">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glauber Néspoli | Full Stack Web Developer</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/materialdesignicons.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/navbar.css">
 </head>
+
 <body onload="randomBG()">
-	<nav class="navbar" id = "navbar">
-        <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
-            <i class="mdi mdi-menu-open"></i>
+	<nav class="navbar" id="navbar">
+		<label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+			<i class="mdi mdi-menu-open"></i>
 		</label>
 		<span>&nbsp;</span>
-		<input type="checkbox" id="chkToggle"/>
-        <ul class="main-nav" id="js-menu">
-            <li>
-                <a href="#home" class="nav-links">Home</a>
-            </li>
-            <li>
-                <a href="#skills" class="nav-links">Skills</a>
-            </li>
-            <li>
-                <a href="#about-me" class="nav-links">About Me</a>
-            </li>
-            <li>
-                <a href="#contact" class="nav-links">Contact</a>
-            </li>
-        </ul>
+		<input type="checkbox" id="chkToggle" />
+		<ul class="main-nav" id="js-menu">
+			<li>
+				<a href="#home" class="nav-links">Home</a>
+			</li>
+			<li>
+				<a href="#skills" class="nav-links">Skills</a>
+			</li>
+			<li>
+				<a href="#about-me" class="nav-links">About Me</a>
+			</li>
+			<li>
+				<a href="#contact" class="nav-links">Contact</a>
+			</li>
+		</ul>
 	</nav>
-	
+
 	<section class="home" id="home">
 		<div class="shade">
-			
+
 			<div class="whoami">
 				<div class="whoami-image-wrapper">
 					<img src="images/glauber.jpg" alt="Glauber Néspoli">
@@ -44,10 +47,13 @@
 				<div class="whoami-info">
 					<h1>Hi. I'm <span>Glauber Néspoli</span>.</h1>
 					<h2><span class="txt-rotate">&nbsp;</span></h2>
-					<p>I've been a Software Developer and Backend Web Developer for the past 8 years, mostly working with <strong>Java</strong><i class="mdi mdi-language-java"></i>. 
-						Coding is a passion and something I trully love doing. As everything in life, changes are needed, so currently I'm focused in getting more knowledge in Frontend Development. 
-						My current goal is to learn advanced web design and frontend frameworks and libraries like 
-						<strong>Bootstrap</strong><i class="mdi mdi-bootstrap"></i>, <strong>React</strong><i class="mdi mdi-react"></i>, <strong>React-native</strong><i class="mdi mdi-react"></i> 
+					<p>I've been a Software Developer and Backend Web Developer for the past 8 years, mostly working
+						with <strong>Java</strong><i class="mdi mdi-language-java"></i>.
+						Coding is a passion and something I trully love doing. As everything in life, changes are
+						needed, so currently I'm focused in getting more knowledge in Frontend Development.
+						My current goal is to learn advanced web design and frontend frameworks and libraries like
+						<strong>Bootstrap</strong><i class="mdi mdi-bootstrap"></i>, <strong>React</strong><i
+							class="mdi mdi-react"></i>, <strong>React-native</strong><i class="mdi mdi-react"></i>
 						among others.</p>
 					<div class="contact">
 						<div><a href="#contact" class="btn">Contact</a></div>
@@ -82,4 +88,5 @@
 	<script src="js/typed.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>
