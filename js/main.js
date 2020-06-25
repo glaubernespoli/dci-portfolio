@@ -46,3 +46,14 @@ function scrollFunction() {
 // $(window).scroll(function () {
 // 	//FIX SMALLER SIZE
 // });
+
+$(document).ready(function () {
+	$('.popup-image').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true
+		}
+	});
+});

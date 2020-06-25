@@ -1,4 +1,5 @@
 @import url('normalize.css');
+@import url('magnific-popup.css');
 @import url('materialdesignicons.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
@@ -7,6 +8,7 @@
 @import url('home.css');
 @import url('section.css');
 @import url('skills.css');
+@import url('works.css');
 @import url('aboutme.css');
 
 html {
@@ -23,7 +25,23 @@ body {
 	/* background-color: rgb(16, 14, 23); */
 }
 
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
 img .icon {
 	background-color: transparent;
 	width: fit-content;
+}
+
+.shade {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* setting to 0 since its position is already absolute */
+	top: 0;
+	/* half transparent */
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: background-color 0.15s ease-in-out;
 }

@@ -6,7 +6,7 @@
 	background-position: 50% 50%;
 	/* convers the entire container */
 	background-size: cover;
-	min-height: 800px;
+	min-height: 1200px;
 	position: relative;
 	overflow: hidden;
 }
@@ -21,7 +21,13 @@
 	background-color: rgba(0, 0, 0, 0.6);
 }
 
-.home .shade .light {
+.home .shade .shade-light {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* setting to 0 since its position is already absolute */
+	top: 0;
+	/* half transparent */
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -32,7 +38,7 @@
 }
 
 .whoami-image-wrapper {
-	border-radius: 50%;
+	border-radius: 50% / 50%;
 	border: #181a1b 1px solid;
 	overflow: hidden;
 	height: 20vw;
@@ -47,6 +53,7 @@
 	margin-right: auto; */
 	max-width: 100%;
 	max-height: 100%;
+	object-fit: fill;
 }
 
 .whoami-info {
@@ -60,6 +67,10 @@
 	font-size: 45px;
 	font-weight: 500;
 	line-height: 1.7;
+}
+
+.home h1 span {
+	font-size: 45px;
 }
 
 .home h1 span,
@@ -76,9 +87,9 @@
 }
 
 .home p {
-	font-size: 18px;
+	font-size: 22px;
 	margin-top: 20px;
-	max-width: 500px;
+	max-width: 700px;
 	text-align: justify;
 }
 
