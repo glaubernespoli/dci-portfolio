@@ -37,3 +37,33 @@
 .skills .skill-box:hover .mdi-source-repository {
     color: #3e4041;
 }
+
+.color.mdi-bootstrap {
+    color: #543c7c;
+}
+
+.color.mdi-sass {
+    color: #bf608c;
+    /* #bf608c */
+}
+.color.mdi-react {
+    color: #00d8ff;
+}
+.color.mdi-angular {
+    color: #dc0434;
+}
+.color.mdi-vuejs {
+    color: #04c383;
+}
+.color.mdi-language-kotlin {
+    color: #7970e3;
+}
+.color.mdi-kubernetes {
+    color: #346ce4;
+}
+.color.mdi-language-python {
+    color: #3673a5;
+}
+.color.mdi-emoticon-wink {
+    color: #ffcc3b;
+}

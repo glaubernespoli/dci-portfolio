@@ -1,4 +1,22 @@
 .section h2 {
     font-size: 50px;
     font-weight: 700;
+    border-bottom: 2px solid;
+}
+
+.section .section-title {
+    width: 50%;
+    margin: auto;
+}
+
+.section h3 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    border-bottom: 2px solid;
+}
+
+.section .section-subtitle {
+    min-width: 40%;
+    display: inline-block;
 }

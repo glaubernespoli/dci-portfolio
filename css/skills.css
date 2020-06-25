@@ -4,17 +4,23 @@
     padding: 70px 0 70px 0;
 }
 
-.skills .skill-box {
+.skills .skill-box,
+.skills-others-container .skills-others-item,
+.skills-learn .skills-learn-item {
     margin: 15px 15px;
     padding: 10px 15px;
     color: rgba(255, 255, 255, 0.7);
     border: 3px solid rgba(255, 255, 255, 0.7);
     border-radius: 10%;
     transition: color .30s ease-in-out, border .30s ease-in-out, background-color .15s ease-in-out;
-    
 }
 
-.skills .skill-box:hover {
+.skills .skill-box {
+    width: 28%;
+}
+
+.skills .skill-box:hover,
+.skills-others-container .skills-others-item:hover {
     color: #fff;
     border: 3px solid #fff;
     background-color: #212529;
@@ -25,14 +31,10 @@
     text-align: center;
 }
 
-.skills .skills-list{
+.skills .list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.skills .skill-box {
-    width: 28%;
 }
 
 .skill-box .skill-title h4 {
@@ -42,4 +44,30 @@
 .skill-box p {
     font-size: 20px;
     text-align: center;
+}
+
+.skills-others-container .skills-others {
+    margin-top: 10px;
+}
+
+.skills .item {
+    border-radius: 10%;
+    font-size: 17px;
+}
+
+.skills-others-container .skills-others-item:hover {
+    transition: color .30s ease-in-out, border .30s ease-in-out, background-color .15s ease-in-out;
+}
+
+.skills .skills-learn {
+    background-color: #212529;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 5% / 30%;
+    margin: 15px 60px;
+    padding: 10px 10px;
+}
+
+.skills .skills-learn-item {
+    background-color: rgb(24, 26, 27);
+    color: #fff;
 }
