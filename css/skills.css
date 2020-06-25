@@ -5,17 +5,19 @@
 }
 
 .skills .skill-box {
-    margin: 50px 15px;
+    margin: 15px 15px;
     padding: 10px 15px;
     color: rgba(255, 255, 255, 0.7);
     border: 3px solid rgba(255, 255, 255, 0.7);
     border-radius: 10%;
-    transition: color .30s ease-in-out, border .30s ease-in-out;
+    transition: color .30s ease-in-out, border .30s ease-in-out, background-color .15s ease-in-out;
+    
 }
 
 .skills .skill-box:hover {
     color: #fff;
     border: 3px solid #fff;
+    background-color: #212529;
 }
 
 .skills .icon-title {
@@ -31,4 +33,13 @@
 
 .skills .skill-box {
     width: 28%;
+}
+
+.skill-box .skill-title h4 {
+    font-size: 40px;
+}
+
+.skill-box p {
+    font-size: 20px;
+    text-align: center;
 }
