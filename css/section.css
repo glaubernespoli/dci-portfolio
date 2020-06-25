@@ -1,3 +1,7 @@
+.section {
+    padding: 70px 0;
+}
+
 .section h2 {
     font-size: 50px;
     font-weight: 700;
@@ -14,6 +18,10 @@
     margin-bottom: 5px;
     margin-left: 30px;
     border-bottom: 2px solid;
+}
+
+.section p {
+    margin: 40px 30px 5px 30px;
 }
 
 .section .section-subtitle {

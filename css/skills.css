@@ -1,9 +1,5 @@
 @import url('skills-icons.css');
 
-.skills {
-    padding: 70px 0 70px 0;
-}
-
 .skills .skill-box,
 .skills-others-container .skills-others-item,
 .skills-learn .skills-learn-item {

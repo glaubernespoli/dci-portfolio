@@ -2,10 +2,12 @@
 @import url('materialdesignicons.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+@import url('color-icons.css');
 @import url('navbar.css');
 @import url('home.css');
 @import url('section.css');
 @import url('skills.css');
+@import url('aboutme.css');
 
 html {
 	scroll-behavior: smooth;
@@ -19,4 +21,9 @@ body {
 	/* background-color: #212529; */
 	background-color: rgb(24, 26, 27);
 	/* background-color: rgb(16, 14, 23); */
+}
+
+img .icon {
+	background-color: transparent;
+	width: fit-content;
 }

@@ -1,0 +1,44 @@
+.about-me-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 50px;
+}
+
+.about-me-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-me-content ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.about-me-content li {
+    margin: 25px 0;
+    max-height: 35px;
+}
+
+.about-me-box .right,
+.left {
+    background-color: #212529;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    border-radius: 15% / 15%;
+    margin: 15px 30px;
+    padding: 10px 10px;
+    font-size: 27px;
+}
+
+.about-me-box i, span {
+    font-size: 30px;
+}
+
+
+.about-me-content img {
+    max-width: 25px;
+}
