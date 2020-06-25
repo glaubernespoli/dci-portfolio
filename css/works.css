@@ -41,3 +41,15 @@
 .work-box:hover .shade {
     background-color: transparent;
 }
+
+.work-info {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-info p {
+    margin: 25px;
+}
