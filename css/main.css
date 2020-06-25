@@ -7,6 +7,10 @@
 @import url('section.css');
 @import url('skills.css');
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
