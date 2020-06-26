@@ -69,3 +69,9 @@ img .icon {
 	padding: .5rem 1rem !important;
 	cursor: pointer;
 }
+
+footer {
+	text-align: right;
+	margin: 40px;
+	font-size: 18px;
+}
