@@ -35,6 +35,7 @@
 	padding: 0 80px;
 	margin-top: 200px;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .whoami-image-wrapper {
@@ -100,6 +101,11 @@
 
 .section h2 {
 	text-align: center;
+}
+
+.home .contact {
+	display: flex;
+	justify-content: center;
 }
 
 /** RESPONSIVENESS **/
