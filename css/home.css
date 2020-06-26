@@ -6,7 +6,7 @@
 	background-position: 50% 50%;
 	/* convers the entire container */
 	background-size: cover;
-	min-height: 1200px;
+	min-height: 1000px;
 	position: relative;
 	overflow: hidden;
 }

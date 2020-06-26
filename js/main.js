@@ -32,8 +32,9 @@ window.onscroll = function () {
 	scrollFunction()
 };
 
+//TODO this has to be not pixel based but once it reaches to next section
 function scrollFunction() {
-	if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+	if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
 		document.getElementById("navbar").style.backgroundColor = "rgb(24, 26, 27)";
 	} else if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
 		document.getElementById("navbar").style.backgroundColor = "rgba(24, 26, 27, 0.5)";
