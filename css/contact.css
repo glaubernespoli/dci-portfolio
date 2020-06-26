@@ -166,6 +166,12 @@
     border-color: #fff;
 }
 
+/* error in the live github pages. background doesnt work there, adding this to test */
+.form-radio-input:checked + label::after {
+    background-color: #fff;
+    border-color: #fff;
+}
+
 .form-submit-button:hover {
     background-color: #fff;
     color: rgb(24, 26, 27);
