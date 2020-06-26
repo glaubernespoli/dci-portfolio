@@ -1,0 +1,207 @@
+.contact-container {
+    padding-bottom: 1.5rem;
+    border-radius: 0 !important;
+    box-sizing: border-box;
+    margin: 15px 25px;
+    padding: 10px 15px;
+}
+
+.contact-form {
+    --darkreader-inline-color: #bbb9b5;
+    text-align: center !important;
+    display: block;
+    line-height: 1.5;
+    margin: 0 20px;
+}
+
+.form-input-box {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center !important;
+}
+
+.form-input,
+.form-textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 0;
+    transition: border-bottom 0.15s ease-in-out;
+    color: #fff;
+    height: auto;
+    padding: .6rem 0 .4rem 0;
+    margin: 0 0 .5rem 0;
+    width: 100%;
+    display: block;
+    line-height: 1.5;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.form-input-box label {
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    cursor: text;
+    transition: transform .2s ease-out, color .2s ease-out, -webkit-transform .2s ease-out;
+    transform: translateY(12px);
+    transform-origin: 0 100%;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-input-box label.active {
+    transform: translateY(-14px) scale(0.8);
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0.5rem;
+}
+
+.form-textarea {
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.form-input-box .form-textarea+label {
+    top: -0.6rem;
+}
+
+.form-radio-box {
+    padding: 15px;
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5;
+}
+
+.form-radio-option-box {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 0;
+    margin-right: .75rem;
+    position: relative;
+}
+
+.contact-container input[type="radio"] {
+    position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* .form-radio-option-box .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.form-radio-option-box:hover .checkmark {
+    background-color: #ccc;
+  }
+  
+  .form-radio-option-box input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+
+.form-radio-option-box .checkmark:hover {
+    background-color: #ccc;
+  }
+
+.form-radio-option-box input:checked ~ .checkmark {
+    background-color: #2196F3;
+  } */
+
+
+
+
+
+
+
+
+
+
+.form-radio-input {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    margin-top: 0;
+    margin-right: .3125rem;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: transparent;
+
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.form-radio-input+label {
+    position: relative;
+    display: inline-block;
+    height: 1.5625rem;
+    padding-left: 35px;
+    line-height: 1.5625rem;
+    cursor: pointer;
+    user-select: none;
+    transition: .28s ease;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.form-radio-input:checked+label {
+    color: #fff;
+}
+
+/* custom radio */
+.form-radio-input:not(:checked)+label:before {
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    content: "";
+    transition: .28s ease;
+}
+
+.form-radio-input:checked+label:after {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transform: scale(1.02);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+    content: "";
+    transition: .28s ease;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.form-submit-button:hover {
+    background-color: #fff;
+    color: rgb(24, 26, 27);
+}

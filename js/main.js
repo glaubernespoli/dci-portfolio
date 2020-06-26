@@ -56,4 +56,34 @@ $(document).ready(function () {
 			navigateByImgClick: true
 		}
 	});
+
+	$('.contact-form .form-input-box label').toggleClass('active', function (element) {
+		console.log(element);
+		// if (element.) {
+
+		// }
+	});
+
+	function checkActive(element) {
+		const input = $('.form-input', element);
+		const label = $('label', element);
+
+		label.toggleClass('active', input.val().length > 0);
+	}
+
+	// The lines below are executed on page load
+	$('.form-input-box').each(function () {
+		checkActive(this);
+	});
+
+	// The lines below (inside) are executed on change & keyup
+	$('.form-input-box').on('focusout change keyup', function () {
+		checkActive(this);
+	});
+
+	//hack because couldnt make it work properly straight with focus
+	$('.form-input-box .form-input').focus(function () {
+		var input = $(this);
+		$('label', input.parent()).addClass('active');
+	});
 });
