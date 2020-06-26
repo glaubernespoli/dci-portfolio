@@ -11,6 +11,7 @@
 @import url('works.css');
 @import url('aboutme.css');
 @import url('contact.css');
+@import url('social-network.css');
 
 html {
 	scroll-behavior: smooth;

@@ -68,7 +68,7 @@ $(document).ready(function () {
 		const input = $('.form-input', element);
 		const label = $('label', element);
 
-		label.toggleClass('active', input.val().length > 0);
+		label.toggleClass('active', input.is(':focus') || input.val().length > 0);
 	}
 
 	// The lines below are executed on page load

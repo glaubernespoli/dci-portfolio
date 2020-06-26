@@ -1,0 +1,28 @@
+.social-network-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.social-network-item {
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.social-network-item a .mdi {
+    color: rgba(255, 255, 255, 0.6);
+    transition: color .30s ease-in-out;
+}
+
+.social-network-item a:hover .mdi-linkedin {
+    color: #0474b4;
+}
+
+.social-network-item a:hover .mdi-github {
+    color: #4c4c4c;
+}
+
+.social-network-item a:hover .mdi-bitbucket {
+    color: #0c54cb;
+}
