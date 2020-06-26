@@ -97,44 +97,9 @@
 
 .contact-container input[type="radio"] {
     position: absolute;
-  opacity: 0;
-  cursor: pointer;
+    opacity: 0;
+    cursor: pointer;
 }
-
-/* .form-radio-option-box .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
-}
-
-.form-radio-option-box:hover .checkmark {
-    background-color: #ccc;
-  }
-  
-  .form-radio-option-box input:checked ~ .checkmark {
-    background-color: #2196F3;
-  }
-
-.form-radio-option-box .checkmark:hover {
-    background-color: #ccc;
-  }
-
-.form-radio-option-box input:checked ~ .checkmark {
-    background-color: #2196F3;
-  } */
-
-
-
-
-
-
-
-
-
 
 .form-radio-input {
     position: absolute;

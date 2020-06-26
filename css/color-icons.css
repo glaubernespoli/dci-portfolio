@@ -6,24 +6,31 @@
     color: #bf608c;
     /* #bf608c */
 }
+
 .color.mdi-react {
     color: #00d8ff;
 }
+
 .color.mdi-angular {
     color: #dc0434;
 }
+
 .color.mdi-vuejs {
     color: #04c383;
 }
+
 .color.mdi-language-kotlin {
     color: #7970e3;
 }
+
 .color.mdi-kubernetes {
     color: #346ce4;
 }
+
 .color.mdi-language-python {
     color: #3673a5;
 }
+
 .color.mdi-emoticon-wink {
     color: #ffcc3b;
 }
@@ -32,6 +39,6 @@
     color: #84c321;
 }
 
-.color.mdi-human-male-male{
+.color.mdi-human-male-male {
     color: #49322a;
 }
